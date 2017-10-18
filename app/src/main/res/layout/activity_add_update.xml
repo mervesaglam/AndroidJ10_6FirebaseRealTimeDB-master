@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/linearpadding"
+    tools:context="com.mstztrk.j10_6firebaserealtimedb.com.merve.j10_6firebaserealtimedb.AddUpdateActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1">
+
+            <TableRow>
+
+                <TextView
+                    style="@style/TextViewlar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/ad" />
+
+                <EditText
+                    android:id="@+id/txtAd"
+                    style="@style/EditTextler"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="textPersonName" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/TextViewlar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/soyad" />
+
+                <EditText
+                    android:id="@+id/txtSoyad"
+                    style="@style/EditTextler"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="textPersonName" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/TextViewlar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/telefon" />
+
+                <EditText
+                    android:id="@+id/txtTelefon"
+                    style="@style/EditTextler"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="phone" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/TextViewlar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/email" />
+
+                <EditText
+                    android:id="@+id/txtEmail"
+                    style="@style/EditTextler"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="textEmailAddress" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+
+    <Button
+        android:id="@+id/btnEkle"
+        style="@style/MainButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Ekle" />
+
+    <Button
+        android:id="@+id/btnGuncelle"
+        style="@style/MainButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/guncelle" />
+
+</LinearLayout>

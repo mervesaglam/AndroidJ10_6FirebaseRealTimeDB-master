@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "511030387298",
+    "firebase_url": "https://j10projeler-dc670.firebaseio.com",
+    "project_id": "j10projeler-dc670",
+    "storage_bucket": "j10projeler-dc670.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:511030387298:android:1bf6dece650e4eac",
+        "android_client_info": {
+          "package_name": "com.mstztrk.j10_6firebaserealtimedb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "511030387298-neid82lpndsp0bq5mmcv37qdhai2b7jk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mstztrk.j10_6firebaserealtimedb",
+            "certificate_hash": "cd6d55625c5df2e8e6658685796c3a69cf839ca7"
+          }
+        },
+        {
+          "client_id": "511030387298-bqp9e4g3ojqgvvnrgm2dttoshaba5fau.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBdDKqdHQ88MoIESNRl9eHqg3QHidblto"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "511030387298-bqp9e4g3ojqgvvnrgm2dttoshaba5fau.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
